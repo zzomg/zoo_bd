@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.HelpForm">
+  <grid id="e2503" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="3" y="0" width="1644" height="704"/>
+    </constraints>
+    <properties>
+      <background color="-5638753"/>
+      <enabled value="false"/>
+      <font name="Comic Sans MS" size="18"/>
+      <foreground color="-16730829"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="14bf" class="javax.swing.JTextPane" binding="helpTextPane">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="700" height="700"/>
+            <preferred-size width="700" height="700"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2359335"/>
+          <font name="Comic Sans MS" size="16"/>
+          <foreground color="-16730829"/>
+          <text value="F.A.Q.&#10;&#10;В: Как подключиться к базе данных?&#10;О: Нажмите кнопку &quot;Войти/Сменить пользователя&quot;. По умолчанию указаны логин/пароль администратора БД. Чтобы войти в качестве ветерианара, введите:&#10;логин: VET &#10;пароль vet&#10;Чтобы войти в качестве менеджера зоопарка, введите:&#10;логин: MANAGER&#10;пароль: manager&#10;Имя схемы и адрес подключения при этом вводить заново не требуется.&#10;&#10;В: Как получить доступ к таблицам базы данных?&#10;О: Полный доступ к таблицам базы данных имеет лишь администратор БД. Для этого после подключения в качестве администратора БД нажмите кнопку &quot;Загрузить данные&quot;, после выберите нужную таблицу,и нажмите кнопку &quot;Открыть таблицу&quot;. Если вы зашли за одну из двух других ролей, воспользуйтесь формами для просмотра данных.&#10;&#10;В: Что делать, если я хочу подключиться за другого пользователя?&#10;О: Нажмите кнопку &quot;Войти/Сменить пользователя&quot;, введите необходимые данные, после этого отображаемая информация автоматически изменится в соответствии с вашей ролью.&#10;&#10;Общая информация:&#10;Для каждой из ролей существует управленческая вкладка со всеми доступными вашей роли действиями. Эта вкладка открывается сразу же после подключения к базе данных. &#10;&#10;Удачного пользования!"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
