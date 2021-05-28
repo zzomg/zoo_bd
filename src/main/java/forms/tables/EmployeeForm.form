@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.tables.EmployeeForm">
+  <scrollpane id="4531f" binding="scrollPane">
+    <constraints>
+      <xy x="20" y="12" width="600" height="259"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <maximumSize width="-1" height="-1"/>
+      <minimumSize width="600" height="250"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="2cde8" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties>
+          <maximumSize width="-1" height="-1"/>
+          <minimumSize width="600" height="250"/>
+          <preferredSize width="600" height="250"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9e31d" binding="generalPanel" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="23af2" class="javax.swing.JLabel" binding="jobLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="ec33b"/>
+                  <text value="Специальность"/>
+                </properties>
+              </component>
+              <component id="e824" class="javax.swing.JLabel" binding="salaryLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="5ea1e"/>
+                  <text value="Зарплата"/>
+                </properties>
+              </component>
+              <component id="91caf" class="javax.swing.JLabel" binding="sexLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="6cd4d"/>
+                  <text value="Пол"/>
+                </properties>
+              </component>
+              <component id="fdfef" class="javax.swing.JLabel" binding="hireDateLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="1008c"/>
+                  <text value="Дата приема на работу"/>
+                </properties>
+              </component>
+              <component id="e7d61" class="javax.swing.JLabel" binding="lastNameLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="24280"/>
+                  <text value="Фамилия"/>
+                </properties>
+              </component>
+              <component id="5f549" class="javax.swing.JLabel" binding="firstNameLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <labelFor value="a021c"/>
+                  <text value="Имя"/>
+                </properties>
+              </component>
+              <component id="a021c" class="javax.swing.JTextField" binding="firstNameText">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <margin top="2" left="2" bottom="2" right="2"/>
+                </properties>
+              </component>
+              <component id="24280" class="javax.swing.JTextField" binding="lastNameText">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="6cd4d" class="javax.swing.JComboBox" binding="sexBox">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Мужской"/>
+                    <item value="Женский"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="ec33b" class="javax.swing.JComboBox" binding="jobBox">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Ветеринар"/>
+                    <item value="Уборщик"/>
+                    <item value="Менеджер"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="1008c" class="javax.swing.JFormattedTextField" binding="hireDateText" custom-create="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusLostBehavior value="1"/>
+                </properties>
+              </component>
+              <component id="5ea1e" class="javax.swing.JTextField" binding="salaryText">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="66e6" class="javax.swing.JTextField" binding="ageText">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="22a8d" class="javax.swing.JLabel" binding="ageLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Возраст"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="bdeb1" binding="categoryPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </scrollpane>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor"/>
+  </inspectionSuppressions>
+</form>

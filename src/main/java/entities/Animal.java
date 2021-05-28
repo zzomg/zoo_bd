@@ -1,6 +1,6 @@
 package entities;
 
-import connection.DBConnection;
+import server.DBConnection;
 
 import javax.sql.rowset.CachedRowSet;
 import java.sql.PreparedStatement;
