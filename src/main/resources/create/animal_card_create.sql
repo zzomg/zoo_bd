@@ -12,6 +12,8 @@ create table Animal_card
     ill            number(1)     not null,
     isolated       number(1)     not null,
     req_warm_cage  number(1)     not null,
+    CONSTRAINT weight_chk CHECK (weight >= 0),
+    CONSTRAINT height_chk CHECK (height >= 0),
     CONSTRAINT fk_card_animal_name FOREIGN KEY (animal_name) REFERENCES Animal (animal_name),
     CONSTRAINT ill_chk CHECK (ill = 0 or ill = 1),
     CONSTRAINT animal_sex_chk CHECK (sex = 'самец' or sex = 'самка'),

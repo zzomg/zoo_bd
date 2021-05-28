@@ -34,13 +34,13 @@ drop table CLEANER cascade constraints
 drop table ZOO_USER cascade constraints
 --#
 
-drop view EMPLOYEE_ANIMAL_VIEW cascade constraints
+drop forms EMPLOYEE_ANIMAL_VIEW cascade constraints
 --#
 
 drop table EMPLOYEE_ANIMAL cascade constraints
 --#
 
-drop view EMPLOYEE_ANIMAL_CARD_VIEW cascade constraints
+drop forms EMPLOYEE_ANIMAL_CARD_VIEW cascade constraints
 --#
 
 drop table EMPLOYEE_ANIMAL_CARD cascade constraints

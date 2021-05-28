@@ -11,7 +11,7 @@ CREATE TABLE Employee_Animal_card
 )
 --#
 
-create view Employee_animal_card_view as
+create forms Employee_animal_card_view as
 select emp_id, FIRST_NAME, LAST_NAME, card_id, animal_name, cage_number, date_start, date_end
 from Employee_Animal_card join Employee using (emp_id)
 join ANIMAL_CARD using (card_id)

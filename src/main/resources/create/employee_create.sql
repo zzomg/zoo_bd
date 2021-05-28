@@ -13,7 +13,8 @@ create table Employee
 
     CONSTRAINT emp_sex_chk CHECK (sex = 'М' or sex = 'Ж'),
     CONSTRAINT cage_allow_chk CHECK (cage_allow = 0 or cage_allow = 1),
-    CONSTRAINT salary_chk CHECK (salary >= 0)
+    CONSTRAINT salary_chk CHECK (salary >= 0),
+    CONSTRAINT emp_age_chk CHECK (age >= 18)
 )
 --#
 

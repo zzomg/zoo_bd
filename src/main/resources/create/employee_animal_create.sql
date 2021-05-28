@@ -12,7 +12,7 @@ CREATE TABLE Employee_Animal
 --#
 
 --вью для получения имени, фамилии сотрудника
-create view Employee_animal_view as
+create forms Employee_animal_view as
     select emp_id, FIRST_NAME, LAST_NAME, animal_name, date_start, date_end
 from Employee_Animal join Employee using (emp_id)
 --#
